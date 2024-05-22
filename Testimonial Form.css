@@ -15,13 +15,11 @@ body {
 
 .container {
     display: grid;
-    padding: 5%;
-    padding-bottom: 1rem;
+    padding: 2% 5%;
     background-color: hsl(210, 46%, 95%);
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
-    grid-row-gap: 18px;
-    grid-column-gap: 15px;
+    gap: 1rem;
 } 
 
 .user-img img {
@@ -50,7 +48,7 @@ h3 {
 
 /* TESTIMONIAL STYLING */
 .testimonial {
-    border: 1px solid transparent;
+    border: 1px solid none;
     align-items: center;
     border-radius: 8px;
     padding: 0.4rem;
@@ -95,7 +93,7 @@ h3 {
 
 .testimonial-5 {
     background-color: hsl(0, 0%, 100%);
-    grid-row: span 5;
+    grid-row: span 2;
 }    
 
 /* MEDIA QUERY */
